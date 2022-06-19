@@ -33,7 +33,7 @@ public class CardServiceImpl implements CardService {
     }
 
     public String addCash(int amount) {
-
+        card.setCashAmount(card.getCashAmount()+amount);
         return null;
     }
 }
